@@ -30,9 +30,10 @@
 .chatbot {
     position: fixed;
     right: 50px;
-    bottom: 60px;
+    bottom: 40px;
     overflow: hidden;
-    width: 380px;
+    width: 350px;
+    height: 500px;
     background: #fff;
     border-radius: 15px;
     box-shadow: 0 0 128px 0  rgba(0,0,0,0.1),
@@ -53,7 +54,6 @@
         letter-spacing: 0.5px;
 }
 .chatbot .chatbox {
-    height: 480px;
     overflow-y: auto;
     padding: 15px 10px 8px;
 }
@@ -73,15 +73,16 @@
     margin: 0 8px 7px 0;
 }
 
-.chatbot .outgoing {
+.chatbox .outgoing {
      margin: 20px 0;
      justify-content: flex-end;
+     font-size: 0.9rem;
 }
 .chatbox .chat p {
     color: #fff;
     font-size: 0.95rem;
     max-width: 75%;
-    padding: 10px 15px;
+    padding: 5px 10px;
     border-radius: 10px 10px 0 10px;
     background: #4AA017;
     line-height: 1.5;
@@ -90,6 +91,7 @@
 
 .chatbox .incoming p {
     color: black;
+    font-size: 0.9rem;
     background: #f2f2f2;
     border-radius: 10px 10px 10px 0;
     text-align: left;
