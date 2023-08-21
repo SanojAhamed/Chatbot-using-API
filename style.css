@@ -27,6 +27,7 @@
         }
 }
 
+
 .chatbot {
     position: fixed;
     right: 50px;
@@ -136,7 +137,29 @@
 .chat-input textarea:valid ~ span {
     visibility: visible;
 }
-
+@media (max-width: 767px) {
+    .chatbot {
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+        bottom: 0;
+        right: 0;
+    }
+    .chatbot header {
+        border-radius: 0;
+    }
+    .chatbot .chat-input {
+        position: relative;
+    }
+    .chatbot .chat-input textarea {
+        padding: 16px 15px 16px 0;
+    }
+    .chatbot .chat-input span {
+        height: 55px;
+        line-height: 55px;
+        font-size: 1.35rem;
+    }
+}
 
 
 
