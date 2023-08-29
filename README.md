@@ -2,6 +2,14 @@
 
 ![image](https://github.com/SanojAhamed/Chatbot-using-API/assets/97176600/aa6404a3-aa6e-4a22-9190-4ee83c9a392e)
 
+
+## Demonstration Video
+
+
+https://github.com/SanojAhamed/Chatbot-using-API/assets/97176600/69fd4da7-c030-4d7e-be76-8c7a1fc6bb38
+
+
+
 Welcome to the JavaScript Chatbot with the OpenAI API repository! This project showcases a dynamic and interactive chatbot implemented using HTML, CSS, and JavaScript. Leveraging the power of the OpenAI API, the chatbot engages in natural language conversations with users.
 
 ## Features
