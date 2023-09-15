@@ -38,10 +38,6 @@ To experience the chatbot, follow these steps:
 
 - Google Fonts & icons: The project employs Google Fonts for typography, enhancing the visual appeal of the chatbot interface.
 
-## Usage
-
-Feel free to explore and experiment with the chatbot's capabilities. You can further enhance and customize the chatbot's behavior by modifying the codebase to suit your specific requirements.
-
 ## Contributing
 
 Contributions to this project are welcome! Whether you want to improve the user interface, enhance functionality, or fix issues, your input is valuable. If you encounter bugs or have ideas for new features, please open an issue in this repository.
