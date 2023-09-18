@@ -5,7 +5,7 @@ const sendChatbtn = document.querySelector(".chat-input span");
 const chatbox = document.querySelector(".chatbox");
 
 let userMessage = null; // Variable to store user's message
-const API_KEY = ""; // Paste your API key here
+const API_KEY = ""; // Paste API key her
 const inputInitHeight = chatInput.scrollHeight;
 
 const createChatLi = (message, className) => {
@@ -43,7 +43,7 @@ const generateResponse = (incomingChatli) => {
     }),
   };
 
-  // Send POST request to API, get response and set the response as paragraph text
+  // Send POST request to API, get a response and set the response as paragraph text
   fetch(API_URL, requestOptions)
     .then((res) => res.json())
     .then((data) => {
@@ -85,7 +85,7 @@ chatInput.addEventListener("input", () => {
 });
 
 chatInput.addEventListener("keydown", (e) => {
-  // If Enter key is pressed without Shift key and the window
+  // If Enter key is pressed without the Shift key and the window
   // width is greater than 800px, handle the chat
   if (e.key === "Enter" && !e.shiftKey && window.innerWidth > 800) {
     e.preventDefault();
